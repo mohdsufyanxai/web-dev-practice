@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 60vh;
+            width: 120vh;
+            background-color: blue;
+            position: relative;
+
+        }
+
+        .box {
+            height: 60px;
+            width: 60px;
+            background-color: red;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            border-radius: 70px;
+            /* animation: duration timing-function delay iteration-count direction fill-mode; */
+            animation: ysufyan 3s cubic-bezier(0.42, 0, 0.35, 1.03) ,
+                      sufyan 3S  ;
+        }
+
+        @keyframes ysufyan {
+0%{
+    transform: translateY(300px);
+}
+/* 50%{
+    transform: translateY(500px);
+}
+100%{
+    transform: translateY(800px);
+} */
+
+        }
+
+        @keyframes sufyan{
+            0%{
+                transform: translate(150px);      
+            }
+            /* 50%{
+                transform: translateX(500px);      
+            }
+            100%{
+                transform: translateX(800px);      
+            } */
+
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="box"></div>
+
+    </div>
+</body>
+
+</html>

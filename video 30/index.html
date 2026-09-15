@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --color: rgb(209, 87, 154);
+            --seccolor: rgb(47, 183, 201);
+            --defpad: 34px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            background-color: var(--color);
+        }
+
+        ul {
+            display: flex;
+        }
+
+        ul li {
+            list-style: none;
+            padding: var(--defpad);
+        }
+        ul li:first-child{
+            --color: rgb(241, 1, 189);
+            background-color: var(--color);
+            border: 2px solid black;
+        }
+
+        .container {
+            background-color: var(--seccolor);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul>
+            <li>oppo</li>
+            <li>mi miew</li>
+            <li>ralmee</li>
+        </ul>
+    </nav>
+    <div class="container">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam similique porro, aliquam error omnis repudiandae.
+        Deserunt numquam neque fugit suscipit, reprehenderit, saepe eum nulla excepturi, vero debitis labore rem
+        consectetur! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore sint dolorum minus ipsa cupiditate
+        ab assumenda earum quibusdam nostrum nobis laudantium facere, dolor soluta nam commodi dolorem porro, autem
+        quae?
+    </div>
+</body>
+
+</html>

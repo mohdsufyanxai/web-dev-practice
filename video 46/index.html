@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: aqua;
+            height: 80vh;
+            width: 30vw;
+        }
+
+        .box {
+            /* background-color: blueviolet; */
+            width: 34px;
+            height: 45px;
+            /* animation: sufyan1;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0.06, 2.01, 1,-0.12);
+            animation-delay: 1;
+            animation-direction: alternate-reverse; */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: sufyan1 3s ease-in-out 1s  forwards,
+                       sufyan2 3s ease-in-out 3s 1;
+        }
+
+        @keyframes sufyan1 {
+            from {
+                background-color: chocolate;
+            }
+
+            to {
+                background-color: hotpink;
+                transform: translateX(1000px);
+            }
+        }
+        @keyframes sufyan2{
+            0%{
+                background-color: black;
+                transform: rotate(100deg);
+            }
+            20%{
+                background-color: aqua;
+                transform: rotate(200deg);
+            }
+            50%{
+                transform: rotate(220deg);
+                background-color: brown;
+            }
+            80%{
+                background-color: deeppink;
+                transform: rotate(300deg);
+            }
+            100%{
+                transform: rotate(310deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+            box
+        </div>
+    </div>
+</body>
+
+</html>

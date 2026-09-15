@@ -1,0 +1,65 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+ }
+
+ body {
+     background-color: grey;
+     display: flex;
+ }
+
+ .card {
+     background-color: white;
+     width: 455px;
+     height: 566px;
+     border-radius: 7px;
+     margin: 4px;
+ }
+
+ .image {
+     padding: 9px;
+ }
+
+ .image img {
+     border-radius: 7px;
+ }
+
+ .content {
+     padding: 1vw;
+ }
+
+ .content p {
+     font-size: 14px;
+     color: solid grey;
+ }
+
+ .capsule {
+     padding: 0px 150px 0 150px;
+ }
+
+ .capsule span {
+     border: 1px solid grey;
+     padding: 1px 7px;
+     border-radius: 7px;
+     font-size: 15px;
+ }
+
+ .button {
+     text-align: center;
+ }
+
+ .button button {
+     margin: 30px;
+     padding: 5px 20px;
+     border-radius: 15px;
+     font-size: 18px;
+     background-color: rgba(37, 110, 219, 0.404);
+     color: rgb(43, 23, 156);
+     border: none;
+     cursor: pointer;
+ }
+
+ .button button:hover {
+     background-color: white;
+     color: rgb(0, 110, 255);
+ }
