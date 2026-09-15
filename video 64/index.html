@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let rand = Math.random()
+        let first, second, third;
+
+        // first
+
+        if (rand > 0.33) {
+            first = "sufyan"
+        }
+        else if (rand < 0.66 && rand >= 0.33) {
+            first = "shaista"
+        }
+        else {
+            first = "zakir"
+        }
+
+        // and second
+        rand = Math.random()
+        if (rand > 0.33) {
+            second = "ansari"
+        }
+        else if (rand < 0.66 && rand >= 0.33) {
+            second = "parveen"
+        }
+        else {
+            second = "husain"
+        }
+
+
+        // and third
+
+        rand = Math.random()
+        if (rand > 0.33) {
+            third = "lakhan"
+        }
+        else if (rand < 0.66 && rand >= 0.33) {
+            third = "purani"
+        }
+        else {
+            third = "papa"
+        }
+
+        console.log(`${first} ${second} ${third}`)
+    </script>
+</body>
+
+</html>
